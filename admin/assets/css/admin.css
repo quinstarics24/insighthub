@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#sidebar {
+    min-width: 220px;
+}
+
+#sidebar .nav-link {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#sidebar .nav-link:hover {
+    background-color: #495057;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    overflow-y: auto;
+}
+
+/* Make footer stick to bottom */
+footer {
+    flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+}
